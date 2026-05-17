@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+
+    background-image:
+        url("images/palm.png"),
+        url("images/bg-pattern.jpg");
+
+    background-repeat:
+        no-repeat,
+        repeat;
+
+    background-position:
+        right top,
+        left top;
+}
+
+header {
+    background-color: #005f73;
+    color:white;
+    text-align: center;
+    
+}
+
+nav {
+    background-color: #0a9396;
+    
+}
+
+nav ul {
+    list-style-image: url("images/palm.png");
+}
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active {
+    color: yellow;
+}
+
+main {
+
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
