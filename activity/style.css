@@ -14,3 +14,6 @@ p {
 .rama{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+h3 {
+    font-family: @import url('https://fonts.googleapis.com/css2?family=Estedad:wght@100..900&display=swap');
+}
