@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+nav a:hover {
+    color: rgb(87, 188, 151);
+}
+nav a:visited {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+body{
+    font-family: Lobster Two;
+    font-size: larger;
+    color: rgb(1, 36, 6);
+    background-color: rgba(6, 163, 210, 0.357);
+    
+
+}
+h3{
+    color: rgba(23, 25, 125, 0.771);
+}
+h2{
+    color: rgb(156, 99, 13);
+}
+#jaffa{
+    color: rgb(139, 100, 53);
+}
+.jako{
+    color: rgb(107, 68, 16);
+}
+.chakka{
+    color: black;
+}
+#lakadi{
+    color: rgb(96, 82, 65);
+}
