@@ -1,0 +1,59 @@
+img{
+    width: 300px;
+}
+.FreeFire{
+    float: left;
+    border: 5px solid rgb(29, 74, 117);
+}
+body{
+    background-image: url(free\ fire.webp);
+    font-size: large;
+    font-weight: 100px;
+    font-style: italic;
+    line-height: normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: chocolate;
+}
+    
+#wrapper{
+    background-color: rgb(202, 193, 138);
+    width: 800px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+nav a{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(32, 49, 35);
+    color: rgb(29, 66, 148);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+}
+nav a:hover {
+    color:aliceblue;
+}
+nav a:active {
+    color: cadetblue;
+}
+header {
+    color: rgb(182, 185, 176);
+    text-shadow: 2px 2px 2px ;
+    border: 4px solid rgb(27, 8, 20);
+    margin-bottom: 20px;
+    background-color: rgb(25, 65, 39);
+    font-family: unset;
+
+}
+footer {
+    color: rgb(182, 185, 176);
+    text-shadow: 2px 2px 2px ;
+    border: 4px solid rgb(27, 8, 20);
+    margin-bottom: 20px;
+    background-color: rgb(25, 65, 39);
+ 
+}
