@@ -1,0 +1,32 @@
+.aside {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+aside {
+    width: 25%;
+    padding: 10px;
+}
+
+main {
+    width: 75%;
+}
+
+.injeti {
+    display: flex;
+    flex-wrap: wrap;   /* allows cards to move to next line */
+    gap: 20px;
+    padding: 20px;
+}
+
+.modda {
+    flex: 0 0 250px;   /* fixed card width */
+    border: 5px solid black;
+    box-shadow: 5px 5px 7px gray;
+    padding: 10px;
+}
+img {
+    width:200px
+}
+footer{ display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin-top:20px; } 
