@@ -135,8 +135,67 @@ tfoot tr {
 thead tr {
     background-color:rgb(119, 89, 52) ;
 }
+.bike {
+    display: flex;
+    margin: 20px 0px 20px 0;
+    gap: 10px;
+}
+.bike label {
+    text-align: right;
+    width: 150px;
+}
+.bikeses {
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+     accent-color:#322580;
+}
+.bikeses label {
+    display: flex;
+    align-items: center;
+  gap: 5px;
+}
+fieldset {
+    background-color: #4e7970;
+    border: thin solid black;
+    border-radius: 5px 5px;
+    box-shadow: 5px 5px black;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+legend {
+    border: thin solid rgb(9, 9, 9);
+    margin: 5px;
+    
+    padding: 10px;
+    border-radius: 5px ;
+    background-color: rgb(112, 106, 54);
+}
+.bike input[type='submit'] {
+    background-color: rgb(60, 106, 142);
+    padding: 15px;
+    border-radius: 5px;
+    border: thin solid rgb(15, 15, 16);
+}
+.bike input:not([type='submit']) {
+    background-color: #97baa5;
+    padding: 10px;
+     border-radius: 8px;
+     box-shadow: 5px 5px black;
+    font-style: italic;
+}
+
+.bike input:not([type='submit']):focus,.india select:focus, .india textarea:focus {
+    background-color: rgb(169, 99, 99);
+}
 
 
+
+@media only screen and (max-width:600px) {
+    body {
+        background-color: rgb(110, 170, 212);
+    }
     nav {
         flex-direction: column-reverse;
     }
@@ -150,82 +209,16 @@ aside {
 .Kenneth {
     width:auto;
 }
-
-.bike{
-    display:flex;
-    align-items:center;
-    gap:10px;
-    margin:20px 0;
-    color:rgb(37,25,12);
-}
-
-.bike label{
-    width:150px;
-    text-align:right;
-}
-
-.bike input:not([type='submit']),
-.bike select,
-.bike textarea{
-    flex:1;
-    padding:10px;
-    background-color:#87a621;
-    box-shadow:5px 5px black;
-    border:thin solid black;
-    border-radius:5px;
-    font-style:italic;
-}
-
-.bike input:not([type='submit']):focus,
-.bike select:focus,
-.bike textarea:focus{
-    background-color:rgb(103,130,114);
-    font-family:Arial, Helvetica, sans-serif;
-    outline:none;
-}
-
-.bike input[type='submit']{
-    background-color:rgb(43,108,152);
-    color:white;
-    padding:15px;
-    border:thin solid black;
-    border-radius:5px;
-    cursor:pointer;
-    margin-left:160px;
-}
-
-.bike input[type='submit']:hover{
-    background-color:rgb(30,80,120);
-}
-footer{ display:grid; grid-template-columns:repeat(5,1fr); gap:10px; margin-top:20px; } 
-@media only print{
-    nav{
-        display: none;
+.bike, .bikeses {
+        flex-direction: column;
     }
-}
-@media only screen and (max-width:600px) {
-    body {
-        background-color: rgb(110, 170, 212);
+    .bike label, .form {
+        text-align: left;
     }
-    .bike{
-    flex-direction:column;
-    align-items:flex-start;
-}
+    .bike input[type='submit'] {
+        width: 100%;
+        padding: 15px;
+        font-size: 20px;
+    }
 
-.bike label{
-    width:auto;
-    text-align:left;
-}
-
-.bike input,
-.bike select,
-.bike textarea{
-    width:100%;
-    box-sizing:border-box;
-}
-
-.bike input[type='submit']{
-    width:100%;
-    margin-left:0;
-    font-size:20px;
 }
