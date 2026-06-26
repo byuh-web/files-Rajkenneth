@@ -1,0 +1,28 @@
+nav a{
+    
+    border: 2px solid black;
+    padding: 2px;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+nav a :hover{
+    color: brown;
+
+}
+div {
+    background-color: rgb(130, 164, 99);
+
+
+}
+.sai{
+    margin-bottom: 20px ;
+    background-color: rgb(96, 136, 97);
+}
+body{
+    background-color: rgba(250, 235, 215, 0.94);
+}
+#lala{
+    color: rgb(13, 65, 29);
+
+}
